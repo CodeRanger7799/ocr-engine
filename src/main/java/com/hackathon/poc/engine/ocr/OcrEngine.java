@@ -9,8 +9,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.function.Function;
 
-//org.springframework.cloud.function.adapter.aws.FunctionInvoker
-///ocrEngine
 @Component
 public class OcrEngine implements Function<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent> {
 
